@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+nav {
+  background-color: hsl(212, 83%, 56%);
+  height: 60px;
+}
+
+b {
+  font-size: 16px;
+  font-weight: bold;
+}
+a {
+  text-decoration: none !important;
+}
+p {
+  padding-left: 30px;
+}

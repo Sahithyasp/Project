@@ -418,8 +418,11 @@ class Project extends React.Component {
               Home {">>"} Pricing {">>"}
               <font color="#348aec"> B2B Marketing Packages</font>
             </b>
-            <br></br>
-            <br></br>
+          </center>
+          <br></br>
+          <br></br>
+
+          <center>
             <div
               style={{
                 background: "#00264d",

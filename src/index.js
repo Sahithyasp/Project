@@ -431,7 +431,9 @@ class Project extends React.Component {
           >
             <br></br>{" "}
             <center>
-              <GrYoutube></GrYoutube>
+              <span style={{ paddingLeft: 15 }}>
+                <GrYoutube></GrYoutube>
+              </span>
               <span style={{ paddingLeft: 15 }}>
                 <FaSlideshare></FaSlideshare>
               </span>

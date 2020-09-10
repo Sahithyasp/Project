@@ -422,15 +422,15 @@ class Project extends React.Component {
           <br></br>
           <br></br>
 
-          <center>
-            <div
-              style={{
-                background: "#00264d",
-                height: 250,
-                color: "white",
-              }}
-            >
-              <br></br>
+          <div
+            style={{
+              background: "#00264d",
+              height: 250,
+              color: "white",
+            }}
+          >
+            <br></br>{" "}
+            <center>
               <GrYoutube></GrYoutube>
               <span style={{ paddingLeft: 15 }}>
                 <FaSlideshare></FaSlideshare>
@@ -457,8 +457,8 @@ class Project extends React.Component {
                 team is spread across Delhi NCR, Chandigarh & Mumbai
               </p>
               <p>All Rights Reserved © Copyright 2020</p>
-            </div>
-          </center>
+            </center>
+          </div>
         </footer>
       </span>
     );

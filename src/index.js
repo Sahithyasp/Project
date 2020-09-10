@@ -420,7 +420,6 @@ class Project extends React.Component {
             </b>
           </center>
           <br></br>
-          <br></br>
 
           <div
             style={{
@@ -431,7 +430,7 @@ class Project extends React.Component {
             }}
           >
             <br></br>{" "}
-            <center style={{ paddingLeft: 15 }}>
+            <center>
               <GrYoutube></GrYoutube>
               <span style={{ paddingLeft: 15 }}>
                 <FaSlideshare></FaSlideshare>

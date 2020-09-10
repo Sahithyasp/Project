@@ -423,7 +423,7 @@ class Project extends React.Component {
             <div
               style={{
                 background: "#00264d",
-                height: 200,
+                height: 250,
                 color: "white",
               }}
             >

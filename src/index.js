@@ -18,31 +18,6 @@ class Project extends React.Component {
       <span>
         {/* -----------------navigation bar------------- */}
 
-        {/* <nav paddingLeft="20px">
-          <img
-            src={require("./img2.png")}
-            width="120px"
-            height="20px"
-            alt="logo"
-            style={{ paddingLeft: 30, paddingBottom: 15 }}
-          />
-          <a
-            class="nav-link dropdown-toggle"
-            href="{#}"
-            id="navbarDropdown"
-            role="button"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-          >
-            Home
-          </a>
-          <span style={{ padding: 20 }}>About</span>
-          <span style={{ padding: 20 }}>Product</span>
-          <span style={{ padding: 20 }}>Services</span>
-          <span style={{ padding: 20 }}>Contact Us</span>
-        </nav> */}
-
         <ReactBootStrap.Navbar bg="#1D65C2" expand="sm">
           <img src={require("./img2.png")} alt="logo" style={{ width: 100 }} />
           <ReactBootStrap.Navbar.Toggle aria-controls="basic-navbar-nav" />

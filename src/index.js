@@ -197,7 +197,7 @@ class Project extends React.Component {
           <br></br>
         </p>
 
-        <a href="{#}">
+        <a href="#1">
           <p
             style={{
               background: "#0275d8",
@@ -220,7 +220,7 @@ class Project extends React.Component {
             <b>Benchmarks & Results of Account-Based Marketing</b>
           </p>
         </a>
-        <a href="{#}">
+        <a href="#2">
           <p
             style={{
               background: "#0275d8",
@@ -244,7 +244,7 @@ class Project extends React.Component {
           </p>
         </a>
 
-        <a href="{#}">
+        <a href="#3">
           <p
             style={{
               background: "#0275d8",
@@ -271,7 +271,7 @@ class Project extends React.Component {
             </b>
           </p>
         </a>
-        <a href="{#}">
+        <a href="#4">
           <p
             style={{
               background: "#0275d8",
@@ -294,7 +294,7 @@ class Project extends React.Component {
             <b>Why sales in ABM?</b>
           </p>
         </a>
-        <a href="{#}">
+        <a href="#5">
           <p
             style={{
               background: "#0275d8",
@@ -317,7 +317,7 @@ class Project extends React.Component {
             <b>Sales responsibility in ABM</b>
           </p>
         </a>
-        <a href="{#}">
+        <a href="#6">
           <p
             style={{
               background: "#0275d8",
@@ -340,7 +340,7 @@ class Project extends React.Component {
             <b>Backend & Tech Stack for ABM (For scaling)</b>
           </p>
         </a>
-        <a href="{#}">
+        <a href="#7">
           <p
             style={{
               background: "#0275d8",
@@ -363,7 +363,7 @@ class Project extends React.Component {
             <b> Points to Note before starting</b>
           </p>
         </a>
-        <a href="{#data}">
+        <a href="#8">
           <p
             style={{
               background: "#0275d8",
@@ -386,7 +386,7 @@ class Project extends React.Component {
             <b> How to Select Accounts (The 5 Levels)</b>
           </p>
         </a>
-        <a href="{#data}">
+        <a href="#9">
           <p
             style={{
               background: "#0275d8",
@@ -431,7 +431,7 @@ class Project extends React.Component {
               background: "#00264d",
               height: 250,
               color: "white",
-              paddingRight: 25,
+              padding: 30,
             }}
           >
             <br></br>{" "}
@@ -498,7 +498,10 @@ class Project extends React.Component {
               </a>
               <br />
               <br />
-              <div className="border-top mx-5"></div>
+              <div
+                className="border-top mx-5"
+                style={{ paddingLeft: 50 }}
+              ></div>
               <br />
 
               <p>

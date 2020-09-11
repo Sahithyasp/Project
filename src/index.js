@@ -416,7 +416,12 @@ class Project extends React.Component {
           <center>
             <b style={{ paddingTop: 30 }}>
               Home {">>"} Pricing {">>"}
-              <font color="#348aec"> B2B Marketing Packages</font>
+              <font color="#348aec">
+                <a href="https://bizamps.com/b2b-marketing-package">
+                  {" "}
+                  B2B Marketing Packages{" "}
+                </a>
+              </font>
             </b>
           </center>
           <br></br>
@@ -426,29 +431,71 @@ class Project extends React.Component {
               background: "#00264d",
               height: 250,
               color: "white",
-              paddingRight: 40,
+              paddingRight: 25,
             }}
           >
             <br></br>{" "}
             <center>
-              <span style={{ paddingLeft: 15 }}>
-                <GrYoutube></GrYoutube>
-              </span>
-              <span style={{ paddingLeft: 15 }}>
-                <FaSlideshare></FaSlideshare>
-              </span>
-              <span style={{ paddingLeft: 15 }}>
-                <GrLinkedin></GrLinkedin>
-              </span>
-              <span style={{ paddingLeft: 15 }}>
-                <GrInstagram></GrInstagram>
-              </span>
-              <span style={{ paddingLeft: 15 }}>
-                <GrFacebook></GrFacebook>
-              </span>
-              <span style={{ paddingLeft: 15 }}>
-                <GrTwitter></GrTwitter>
-              </span>
+              <a
+                href="https://www.youtube.com/channel/UCdEdhgYoVI73IR21AmylKRw"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: "white" }}
+              >
+                <span style={{ paddingLeft: 15 }}>
+                  <GrYoutube></GrYoutube>
+                </span>
+              </a>
+              <a
+                href="https://www.slideshare.net/AkshatKharbanda"
+                style={{ color: "white" }}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span style={{ paddingLeft: 15 }}>
+                  <FaSlideshare></FaSlideshare>
+                </span>
+              </a>
+              <a
+                href="https://in.linkedin.com/company/biz-amps"
+                style={{ color: "white" }}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span style={{ paddingLeft: 15 }}>
+                  <GrLinkedin></GrLinkedin>
+                </span>
+              </a>
+              <a
+                href="https://www.instagram.com/bizamps/"
+                style={{ color: "white" }}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span style={{ paddingLeft: 15 }}>
+                  <GrInstagram></GrInstagram>
+                </span>
+              </a>
+              <a
+                href="https://www.facebook.com/businessamplifiers/"
+                style={{ color: "white" }}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span style={{ paddingLeft: 15 }}>
+                  <GrFacebook></GrFacebook>
+                </span>
+              </a>
+              <a
+                href="https://twitter.com/bizamp_branding"
+                style={{ color: "white" }}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span style={{ paddingLeft: 15 }}>
+                  <GrTwitter></GrTwitter>
+                </span>
+              </a>
               <br />
               <br />
               <div className="border-top mx-5"></div>

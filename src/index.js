@@ -431,7 +431,7 @@ class Project extends React.Component {
               background: "#00264d",
               height: 250,
               color: "white",
-              padding: 35,
+              padding: 40,
             }}
           >
             <br></br>{" "}
